@@ -5,8 +5,6 @@ Users can define percentage of what they consider a generous, pleasant, and aver
 app will then determine the tip amount based on user’s dining experience and calculate the total 
 expense.
 
-
-<img src="https://user-images.githubusercontent.com/61510855/137009996-74b5f3c7-619d-4eb8-9e4b-252e2c532020.png" alt="Red" id="pic" style="width:250px;height:600px;">
 <p>
 <img src="https://user-images.githubusercontent.com/61510855/137009996-74b5f3c7-619d-4eb8-9e4b-252e2c532020.png" width="250" height="500">
 
