@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="395dp" />
+
+    <TextView
+        android:id="@+id/title_excellent"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Excellent:"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_average"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Good:"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/title_excellent" />
+
+    <TextView
+        android:id="@+id/title_lacking"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Average:"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/title_average" />
+
+    <TextView
+        android:id="@+id/textPercent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" %"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/excellentTip"
+        app:layout_constraintTop_toTopOf="@+id/title_excellent" />
+
+    <TextView
+        android:id="@+id/textPercent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" %"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/averageTip"
+        app:layout_constraintTop_toTopOf="@+id/title_average" />
+
+    <TextView
+        android:id="@+id/textPercent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" %"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/lackingTip"
+        app:layout_constraintTop_toTopOf="@+id/title_lacking" />
+
+
+    <EditText
+        android:id="@+id/excellentTip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/title_excellent"
+        app:layout_constraintStart_toEndOf="@+id/title_excellent"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/averageTip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/title_average"
+        app:layout_constraintStart_toEndOf="@+id/title_average"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/lackingTip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/title_lacking"
+        app:layout_constraintStart_toEndOf="@+id/title_lacking"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/finalUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onUpdateClick"
+        android:text="Update Tip Percentage"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/lackingTip" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
