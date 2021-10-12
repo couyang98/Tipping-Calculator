@@ -4,9 +4,10 @@ An Android app coded in Java. After a pleasant meal the app can calculate a tip 
 Users can define percentage of what they consider a generous, pleasant, and average tip. The 
 app will then determine the tip amount based on user’s dining experience and calculate the total 
 expense.
+
 <button type="button" onclick="lewis()">
 Change Lights</button>
-<img src="Red.png" alt="Red" id="pic" style="width:250px;height:600px;">
+<img src="https://user-images.githubusercontent.com/61510855/137009996-74b5f3c7-619d-4eb8-9e4b-252e2c532020.png" alt="Red" id="pic" style="width:250px;height:600px;">
 <p>
 <img src="https://user-images.githubusercontent.com/61510855/137009996-74b5f3c7-619d-4eb8-9e4b-252e2c532020.png" width="250" height="500">
 
