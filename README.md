@@ -40,9 +40,9 @@ Java
 		- Will display the selected bill from History.java in more detail
 
 <p>
-<img src="https://user-images.githubusercontent.com/61510855/137009996-74b5f3c7-619d-4eb8-9e4b-252e2c532020.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/61510855/144736557-679b8cdf-b7de-47e7-9a81-53e4176a6a95.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/61510855/144736558-82f1b86b-0904-4cfb-b27d-308dae83b4ea.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/61510855/144736559-57b29ed7-543a-41a3-a767-9d0b15e1c9b0.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/61510855/144736561-cc1d7456-c212-40fa-9f6b-b5a7544ba774.png" width="250" height="500">
 
-<img src="https://user-images.githubusercontent.com/61510855/137010013-cd741054-ae02-4fc6-970b-874be52a1e3a.png" width="250" height="500">
-
-<img src="https://user-images.githubusercontent.com/61510855/137010023-12eac0c7-fb9a-4974-8944-ddac57adc925.png" width="250" height="500">
 </p>
