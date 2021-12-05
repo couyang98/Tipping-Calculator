@@ -6,6 +6,7 @@ app will then determine the tip amount based on user’s dining experience and c
 expense.
 
 Java
+
 	- DOH.java 
 		- Database helper class
 		- Creates the SQLite databases to keep the application stateful
